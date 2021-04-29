@@ -1,5 +1,6 @@
 import BLOG from '@/blog.config'
 import Vercel from '@/components/Vercel'
+import Link from 'next/link'
 const Footer = ({ fullWidth }) => {
   const d = new Date()
   const y = d.getFullYear()
@@ -14,7 +15,7 @@ const Footer = ({ fullWidth }) => {
       <div className="my-4 text-sm leading-6">
         <div className="flex align-baseline justify-between flex-wrap">
           <p>
-            © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
+            © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}<Link href="/feed"><a style={{opacity: '0.0'}}>RSS</a>
           </p>
           <Vercel />
         </div>
