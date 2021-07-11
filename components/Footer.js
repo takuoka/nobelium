@@ -16,7 +16,6 @@ const Footer = ({ fullWidth }) => {
           <p>
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}<Link href="/feed"><a style={{opacity: '0.0'}}>RSS</a></Link>
           </p>
-          {/* <Vercel /> */}
         </div>
       </div>
     </div>
