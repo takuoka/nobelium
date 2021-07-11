@@ -1,5 +1,4 @@
 import BLOG from '@/blog.config'
-import Vercel from '@/components/Vercel'
 import Link from 'next/link'
 const Footer = ({ fullWidth }) => {
   const d = new Date()
