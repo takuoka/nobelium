@@ -2,7 +2,7 @@ const BLOG = {
   title: 'Learning Note',
   author: 'Takuya Okamoto',
   email: 'okamoto.creation@gmail.com',
-  link: 'https://twitter.com/taku_oka',
+  link: 'https://takuyaokamoto-blog.vercel.app',
   description: 'Quick memo',
   lang: 'ja-JP',
   appearance: 'auto', // ['light', 'dark', 'auto'],
